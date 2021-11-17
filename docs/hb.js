@@ -217,7 +217,6 @@ class Firework {
 
         this.dead = true;
       } else if (this.tracer) {
-        this.lifetime += 0.15;
         ctx.arc(this.x, this.y, this.lifetime, 0, 2 * Math.PI);
         ctx.strokeStyle =
           "hsla(" +
