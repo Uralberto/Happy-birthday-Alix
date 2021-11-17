@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background: #010106;
+    cursor: crosshair;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5em;
+    font-weight: 100;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  canvas{display:block}
